@@ -1,0 +1,12 @@
+C:\Users\Ogunleyeaad\source\repos\project\HealthcareMicroservice\src\User\User.Application\bin\Debug\net6.0\User.Application.deps.json
+C:\Users\Ogunleyeaad\source\repos\project\HealthcareMicroservice\src\User\User.Application\bin\Debug\net6.0\User.Application.dll
+C:\Users\Ogunleyeaad\source\repos\project\HealthcareMicroservice\src\User\User.Application\bin\Debug\net6.0\User.Application.pdb
+C:\Users\Ogunleyeaad\source\repos\project\HealthcareMicroservice\src\User\User.Application\obj\Debug\net6.0\User.Application.csproj.AssemblyReference.cache
+C:\Users\Ogunleyeaad\source\repos\project\HealthcareMicroservice\src\User\User.Application\obj\Debug\net6.0\User.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ogunleyeaad\source\repos\project\HealthcareMicroservice\src\User\User.Application\obj\Debug\net6.0\User.Application.AssemblyInfoInputs.cache
+C:\Users\Ogunleyeaad\source\repos\project\HealthcareMicroservice\src\User\User.Application\obj\Debug\net6.0\User.Application.AssemblyInfo.cs
+C:\Users\Ogunleyeaad\source\repos\project\HealthcareMicroservice\src\User\User.Application\obj\Debug\net6.0\User.Application.csproj.CoreCompileInputs.cache
+C:\Users\Ogunleyeaad\source\repos\project\HealthcareMicroservice\src\User\User.Application\obj\Debug\net6.0\User.Application.dll
+C:\Users\Ogunleyeaad\source\repos\project\HealthcareMicroservice\src\User\User.Application\obj\Debug\net6.0\refint\User.Application.dll
+C:\Users\Ogunleyeaad\source\repos\project\HealthcareMicroservice\src\User\User.Application\obj\Debug\net6.0\User.Application.pdb
+C:\Users\Ogunleyeaad\source\repos\project\HealthcareMicroservice\src\User\User.Application\obj\Debug\net6.0\ref\User.Application.dll

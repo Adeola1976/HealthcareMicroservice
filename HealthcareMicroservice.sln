@@ -9,21 +9,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hospital", "Hospital", "{78
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "User", "User", "{2650CB74-7301-48F3-9D23-B732325B9796}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hospital.API", "src\Hospital\Hospital.API\Hospital.API.csproj", "{A59E2BF6-44A6-475C-99FA-3F7489751361}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hospital.API", "src\Hospital\Hospital.API\Hospital.API.csproj", "{A59E2BF6-44A6-475C-99FA-3F7489751361}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hospital.Domain", "src\Hospital\Hospital.Domain\Hospital.Domain.csproj", "{1215F477-F2D1-4EA8-B4CF-A2659B96EC75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hospital.Domain", "src\Hospital\Hospital.Domain\Hospital.Domain.csproj", "{1215F477-F2D1-4EA8-B4CF-A2659B96EC75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hospital.Infrastructure", "src\Hospital\Hospital.Infrastructure\Hospital.Infrastructure.csproj", "{7EDF6860-D6E9-45C3-97B7-B1347FA27B05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hospital.Infrastructure", "src\Hospital\Hospital.Infrastructure\Hospital.Infrastructure.csproj", "{7EDF6860-D6E9-45C3-97B7-B1347FA27B05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hospital.Application", "src\Hospital\Hospital.Application\Hospital.Application.csproj", "{86FF9A59-6F39-4621-9B25-D83E9D79BDAF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hospital.Application", "src\Hospital\Hospital.Application\Hospital.Application.csproj", "{86FF9A59-6F39-4621-9B25-D83E9D79BDAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User.API", "src\User\User.API\User.API.csproj", "{E1F402CE-DF23-40E9-B4D2-F26B8F9465ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "User.API", "src\User\User.API\User.API.csproj", "{E1F402CE-DF23-40E9-B4D2-F26B8F9465ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User.Domain", "src\User\User.Domain\User.Domain.csproj", "{08273E5F-FB67-4964-91C1-A2B1CBC22F2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "User.Domain", "src\User\User.Domain\User.Domain.csproj", "{08273E5F-FB67-4964-91C1-A2B1CBC22F2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User.Application", "src\User\User.Application\User.Application.csproj", "{3ABA1071-70BD-475F-938F-261F97D25E3B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "User.Application", "src\User\User.Application\User.Application.csproj", "{3ABA1071-70BD-475F-938F-261F97D25E3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User.Infrastructure", "src\User\User.Infrastructure\User.Infrastructure.csproj", "{9BDE6E60-CA35-4E88-9175-FC06990B2E79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "User.Infrastructure", "src\User\User.Infrastructure\User.Infrastructure.csproj", "{9BDE6E60-CA35-4E88-9175-FC06990B2E79}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

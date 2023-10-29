@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Hospital.Domain
 {
-    internal class EntityBase
+    public class EntityBase
     {
+        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+        public DateTime? UpdatedAt { get; set; }
     }
 }

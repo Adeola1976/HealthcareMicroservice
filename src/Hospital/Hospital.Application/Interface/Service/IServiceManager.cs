@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Hospital.Application.Interface.Service
 {
-    internal interface IServiceManager
+    public interface IServiceManager
     {
+        IHospitalService HospitalService { get; }
     }
 }

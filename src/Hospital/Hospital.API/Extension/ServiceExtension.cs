@@ -1,4 +1,11 @@
-﻿namespace Hospital.API.Extension
+﻿using Hospital.Application.Interface.Repository;
+using Hospital.Application.Interface.Service;
+using Hospital.Infrastructure.Implementation.Repository;
+using Hospital.Infrastructure.Implementation.Service;
+using Microsoft.EntityFrameworkCore;
+using Serilog;
+
+namespace Hospital.API.Extension
 {
     public static class ServiceExtension
     {

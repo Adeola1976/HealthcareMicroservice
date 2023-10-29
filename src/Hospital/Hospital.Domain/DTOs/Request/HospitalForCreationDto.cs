@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Hospital.Domain.DTOs.Request
 {
-    internal class HospitalForCreationDto
+    public class HospitalForCreationDto
     {
+        public string Name { get; set; }
+        public string? Description { get; set; }
+        public string? Logo { get; set; }
+        public string PhoneNumber { get; set; }
+        public string Email { get; set; }
     }
 }

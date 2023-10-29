@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Hospital.Application.Interface.Repository;
+using Microsoft.Extensions.Configuration;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +8,25 @@ using System.Threading.Tasks;
 
 namespace Hospital.Infrastructure.Implementation.Repository
 {
-    internal class RepositoyManager
+    public class RepositoryManager : IRepositoryManager
     {
+        private readonly RepositoryContext _repositoryContext;
+        private readonly IConfiguration _configuration;
+        private readonly Lazy<IHospitalRepository> _hospitalRepository;
+        private readonly Lazy<IStaffRepository> _staffRepository;
+
+        public RepositoryManager(RepositoryContext repositoryContext, IConfiguration configuration)
+        {
+            _repositoryContext = repositoryContext;
+            _configuration = configuration;
+            _hospitalRepository = new Lazy<IHospitalRepository>(() => new HospitalRepository(_repositoryContext));
+            _staffRepository = new Lazy<IStaffRepository>(() => new StaffRepository(_repositoryContext));
+        }
+
+        public IHospitalRepository Hospital => _hospitalRepository.Value;
+        public IStaffRepository Staff => _staffRepository.Value;
+
+        public async Task SaveAsync() => await _repositoryContext.SaveChangesAsync();
+
     }
 }

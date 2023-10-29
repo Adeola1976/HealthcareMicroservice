@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Hospital.Application.Interface.Repository
 {
-    internal interface IRepositoryManager
+    public interface IRepositoryManager
     {
+        IHospitalRepository Hospital { get; }
+        IStaffRepository Staff { get; }
+        Task SaveAsync();
     }
 }

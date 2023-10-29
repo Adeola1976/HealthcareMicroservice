@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "Hospital.Application/1.0.0": {
+        "dependencies": {
+          "Hospital.Domain": "1.0.0"
+        },
         "runtime": {
           "Hospital.Application.dll": {}
+        }
+      },
+      "Hospital.Domain/1.0.0": {
+        "runtime": {
+          "Hospital.Domain.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Hospital.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Hospital.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

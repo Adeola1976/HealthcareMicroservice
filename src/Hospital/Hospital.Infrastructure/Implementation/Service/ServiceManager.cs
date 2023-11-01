@@ -19,10 +19,10 @@ namespace Hospital.Infrastructure.Implementation.Service
     public class ServiceManager : IServiceManager
     {
         private readonly Lazy<IHospitalService> _hospitalService;
-        public ServiceManager(IRepositoryManager repositoryManager, IConfiguration configuration, ILogger<HospitalService> hospitallogger,
+        public ServiceManager(IRepositoryManager repositoryManager, ILogger<HospitalService> hospitallogger,
         IMapper mapper, IServiceProvider service, RepositoryContext repositoryContext)
         {
-            _hospitalService = new Lazy<IHospitalService>(() => new HospitalService(repositoryManager, configuration, mapper, hospitallogger));
+            _hospitalService = new Lazy<IHospitalService>(() => new HospitalService(repositoryManager, mapper, hospitallogger));
 
         }
 

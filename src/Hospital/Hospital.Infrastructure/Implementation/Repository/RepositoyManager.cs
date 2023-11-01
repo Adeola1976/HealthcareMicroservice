@@ -1,5 +1,4 @@
 ﻿using Hospital.Application.Interface.Repository;
-using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,14 +10,12 @@ namespace Hospital.Infrastructure.Implementation.Repository
     public class RepositoryManager : IRepositoryManager
     {
         private readonly RepositoryContext _repositoryContext;
-        private readonly IConfiguration _configuration;
         private readonly Lazy<IHospitalRepository> _hospitalRepository;
         private readonly Lazy<IStaffRepository> _staffRepository;
 
-        public RepositoryManager(RepositoryContext repositoryContext, IConfiguration configuration)
+        public RepositoryManager(RepositoryContext repositoryContext)
         {
             _repositoryContext = repositoryContext;
-            _configuration = configuration;
             _hospitalRepository = new Lazy<IHospitalRepository>(() => new HospitalRepository(_repositoryContext));
             _staffRepository = new Lazy<IStaffRepository>(() => new StaffRepository(_repositoryContext));
         }

@@ -19,16 +19,14 @@ namespace Hospital.Infrastructure.Implementation.Service
     public class HospitalService : IHospitalService
     {
 
-        private readonly IConfiguration _configuration;
         private readonly IRepositoryManager _repositoryManager;
         private readonly ILogger<HospitalService> _logger;
         private readonly IMapper _mapper;
         
 
-        public HospitalService(IRepositoryManager repositoryManager, IConfiguration configuration, IMapper mapper, ILogger<HospitalService> logger)
+        public HospitalService(IRepositoryManager repositoryManager, IMapper mapper, ILogger<HospitalService> logger)
         {
             _repositoryManager = repositoryManager;
-            _configuration = configuration;
             _mapper = mapper;
             _logger = logger;
         }

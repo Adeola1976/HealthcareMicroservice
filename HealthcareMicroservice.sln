@@ -25,6 +25,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "User.Application", "src\Use
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "User.Infrastructure", "src\User\User.Infrastructure\User.Infrastructure.csproj", "{9BDE6E60-CA35-4E88-9175-FC06990B2E79}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "K8S", "K8S", "{74B1EC9F-B44C-48B9-8366-32232DBBC74B}"
+	ProjectSection(SolutionItems) = preProject
+		hospital-depl.yaml = hospital-depl.yaml
+		hospital-np-srv.yaml = hospital-np-srv.yaml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

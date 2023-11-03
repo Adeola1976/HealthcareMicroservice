@@ -1,0 +1,13 @@
+2023-11-01 15:31:48.775 +01:00 INF Now listening on: https://localhost:7071 
+2023-11-01 15:31:49.026 +01:00 INF Now listening on: http://localhost:5291 
+2023-11-01 15:31:49.138 +01:00 INF Application started. Press Ctrl+C to shut down. 
+2023-11-01 15:31:49.158 +01:00 INF Hosting environment: Development 
+2023-11-01 15:31:49.160 +01:00 INF Content root path: C:\Users\Ogunleyeaad\source\repos\project\HealthcareMicroservice\src\Hospital\Hospital.API\ 
+2023-11-01 15:31:53.195 +01:00 INF Request starting HTTP/2 GET https://localhost:7071/swagger/index.html - - 
+2023-11-01 15:31:54.853 +01:00 INF Request finished HTTP/2 GET https://localhost:7071/swagger/index.html - - - 200 - text/html;charset=utf-8 1674.5947ms 
+2023-11-01 15:31:55.134 +01:00 INF Request starting HTTP/2 GET https://localhost:7071/_framework/aspnetcore-browser-refresh.js - - 
+2023-11-01 15:31:55.201 +01:00 INF Request finished HTTP/2 GET https://localhost:7071/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 66.5023ms 
+2023-11-01 15:31:55.366 +01:00 INF Request starting HTTP/2 GET https://localhost:7071/_vs/browserLink - - 
+2023-11-01 15:31:55.732 +01:00 INF Request finished HTTP/2 GET https://localhost:7071/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 365.5481ms 
+2023-11-01 15:31:55.852 +01:00 INF Request starting HTTP/2 GET https://localhost:7071/swagger/v1/swagger.json - - 
+2023-11-01 15:32:03.290 +01:00 INF Request finished HTTP/2 GET https://localhost:7071/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 7438.2773ms 

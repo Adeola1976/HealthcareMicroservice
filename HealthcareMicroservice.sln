@@ -29,6 +29,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "K8S", "K8S", "{74B1EC9F-B44
 	ProjectSection(SolutionItems) = preProject
 		hospital-depl.yaml = hospital-depl.yaml
 		hospital-np-srv.yaml = hospital-np-srv.yaml
+		user-depl.yaml = user-depl.yaml
 	EndProjectSection
 EndProject
 Global

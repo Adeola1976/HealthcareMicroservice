@@ -14,6 +14,3 @@ FROM mcr.microsoft.com/dotnet/aspnet:6.0
 WORKDIR /publish 
 COPY --from=build-image /publish . 
 ENTRYPOINT ["dotnet", "Hospital.API.dll"]
-
-
-

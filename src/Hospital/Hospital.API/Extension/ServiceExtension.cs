@@ -36,5 +36,14 @@ namespace Hospital.API.Extension
         }
 
         public static void ConfigureServiceManager(this IServiceCollection services) => services.AddScoped<IServiceManager, ServiceManager>();
+
+        public static void ConfigureHttpClient(this IServiceCollection services)
+        {
+            //services.AddHttpClient<IHttpService, HttpService>().SetHandlerLifetime(TimeSpan.FromMinutes(5)).AddPolicyHandler(PollyPolicy.GetRetryPolicy());
+            services.AddHttpContextAccessor();
+            services.AddHttpClient<IHttpService, HttpService>().SetHandlerLifetime(TimeSpan.FromMinutes(5));
+            services.AddScoped<IHttpService, HttpService>();
+        }
+
     }
 }

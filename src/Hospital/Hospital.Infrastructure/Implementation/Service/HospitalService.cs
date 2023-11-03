@@ -22,25 +22,40 @@ namespace Hospital.Infrastructure.Implementation.Service
         private readonly IRepositoryManager _repositoryManager;
         private readonly ILogger<HospitalService> _logger;
         private readonly IMapper _mapper;
-        
+        private readonly IHttpService _httpService;
+        private readonly IConfiguration _configuration;
 
-        public HospitalService(IRepositoryManager repositoryManager, IMapper mapper, ILogger<HospitalService> logger)
+        public HospitalService(IRepositoryManager repositoryManager, IMapper mapper, ILogger<HospitalService> logger, IHttpService httpService, IConfiguration configuration)
         {
             _repositoryManager = repositoryManager;
             _mapper = mapper;
             _logger = logger;
+            _httpService = httpService;
+            _configuration = configuration;
         }
 
         public async Task<GenericResponse<string>> CreateHospitalAsync(HospitalForCreationDto request)
         {
             _logger.LogInformation($"Inside the CreateHospitalAync");
             _logger.LogInformation($"payload to create a new hospital is {request}");
+          
 
             try
             {
                 var hospitalEntity = _mapper.Map<Hospitals>(request);
-                hospitalEntity.HospitalId = new Guid().ToString();
-                _repositoryManager.Hospital.CreateHospital(hospitalEntity);
+                var userHospitalRequest = _mapper.Map<UserHospitalForCreationDto>(request);
+                hospitalEntity.HospitalId = Guid.NewGuid().ToString();
+                userHospitalRequest.HospitalId = hospitalEntity.HospitalId;
+                _repositoryManager.Hospital.CreateHospital(hospitalEntity);  
+                var url = $"{_configuration.GetSection("ExternalApis")["User"]}/api/UserHospital/createhospital";
+                _logger.LogInformation($"The url to reach out to user endpoint is {url}, no caps appsettings");
+                var apirequest = new PostRequest<UserHospitalForCreationDto>
+                {
+                    Url = url,
+                    Data = userHospitalRequest
+                };
+                var response = await _httpService.SendPostRequest<ApiResponse, UserHospitalForCreationDto>(apirequest);
+                _logger.LogInformation($"The response from the api is {response}");
                 await _repositoryManager.SaveAsync();
                 _logger.LogInformation($"request saved in database");
                 return new GenericResponse<string>()
@@ -50,14 +65,14 @@ namespace Hospital.Infrastructure.Implementation.Service
                     ResponseMessage = "Hospital Created successful"
                 };
             }
-
+             
             catch (Exception ex)
             {
                 _logger.LogError($"Error occur while creating a new hospital. Error message : {ex.Message}");
                 return new GenericResponse<string>()
                 {
                     IsSuccessful = false,
-                    ResponseCode = "99",
+                    ResponseCode = "99", 
                     ResponseMessage = "Error occurred"
                 };
             }
@@ -126,6 +141,7 @@ namespace Hospital.Infrastructure.Implementation.Service
                 }
 
                 var mapHospitalEntitiesToResponseDto = _mapper.Map<IEnumerable<GetHospitalResponse>>(hospitalEntities);
+
                 return new GenericResponse<IEnumerable<GetHospitalResponse>>()
                 {
                     IsSuccessful = true,

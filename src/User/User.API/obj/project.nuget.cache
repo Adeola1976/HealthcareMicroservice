@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "3I8p6ce5bm6Y9t+qMreXzvLm5+EaaXqTreetVSm/qf3Ie3Vh/DjJX+IhOowtoyAU5Llf0RsO4Qi8ucZI8m/NXg==",
+  "dgSpecHash": "ikHxkKra2zAadWOdTM+2acBDgftg8r9QFGjzDjN1V9LmG7DQziY6hgndIeIzsjJBKKXoGNpTbJVnyc6uZaFG0w==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ogunleyeaad\\source\\repos\\project\\HealthcareMicroservice\\src\\User\\User.API\\User.API.csproj",
   "expectedPackageFiles": [
@@ -14,8 +14,8 @@
     "C:\\Users\\Ogunleyeaad\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Ogunleyeaad\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\Ogunleyeaad\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
-    "C:\\Users\\Ogunleyeaad\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.0\\microsoft.extensions.configuration.6.0.0.nupkg.sha512",
-    "C:\\Users\\Ogunleyeaad\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Ogunleyeaad\\.nuget\\packages\\microsoft.extensions.configuration\\2.0.0\\microsoft.extensions.configuration.2.0.0.nupkg.sha512",
+    "C:\\Users\\Ogunleyeaad\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.8\\microsoft.extensions.configuration.abstractions.3.1.8.nupkg.sha512",
     "C:\\Users\\Ogunleyeaad\\.nuget\\packages\\microsoft.extensions.configuration.binder\\2.0.0\\microsoft.extensions.configuration.binder.2.0.0.nupkg.sha512",
     "C:\\Users\\Ogunleyeaad\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\Ogunleyeaad\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",

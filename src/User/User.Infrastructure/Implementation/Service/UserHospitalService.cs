@@ -36,7 +36,7 @@ namespace User.Infrastructure.Implementation.Service
             try
             {
 
-                var userHospitalEntity = _repositoryManager.UserHospital.GetUserHospitalsByHospitalIdAsync(request.HospitalId, trackChanges: false);    
+                var userHospitalEntity = await _repositoryManager.UserHospital.GetUserHospitalsByHospitalIdAsync(request.HospitalId, trackChanges: false);    
                 if (userHospitalEntity != null)
                 {
                     return new GenericResponse<string>()
@@ -47,7 +47,7 @@ namespace User.Infrastructure.Implementation.Service
                     };
                 }
                 var hospitalEntity = _mapper.Map<UserHospital>(request);
-                hospitalEntity.UserHospitalId = new Guid().ToString();
+                hospitalEntity.UserHospitalId = Guid.NewGuid().ToString();
                 _repositoryManager.UserHospital.CreateUserHospital(hospitalEntity);
                 await _repositoryManager.SaveAsync();
                 _logger.LogInformation($"request saved in database");

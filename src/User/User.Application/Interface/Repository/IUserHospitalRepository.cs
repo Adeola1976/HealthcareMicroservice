@@ -7,12 +7,11 @@ using User.Domain;
 
 namespace User.Application.Interface.Repository
 {
-    public interface IUserHospitalRepository
+    public  interface IUserHospitalRepository
     {
         void CreateUserHospital(UserHospital hospital);
         Task<IEnumerable<UserHospital>> GetAllUserHospitals();
         void UpdateUserHospital(UserHospital hospital);
         Task<UserHospital> GetUserHospitalsByHospitalIdAsync(string HospitalId, bool trackChanges);
-
     }
 }

@@ -1,4 +1,5 @@
 
+using AutoMapper;
 using Hospital.API.Extension;
 using Microsoft.Extensions.Logging;
 
@@ -13,10 +14,12 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.ConfigureCors();
+builder.Services.ConfigureHttpClient();
 builder.Services.ConfigureRepositoryManager();
 builder.Services.ConfigureInMemoryDatabaseContext();
 builder.Services.ConfigureServiceManager();
 builder.Services.AddAutoMapper(typeof(Program));
+
 
 var app = builder.Build();
 

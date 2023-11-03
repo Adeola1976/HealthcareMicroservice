@@ -1,4 +1,4 @@
-﻿ apiVersion: apps/v1
+ apiVersion: apps/v1
  kind: Deployment
  metadata:
    name: hospital-depl
@@ -15,3 +15,18 @@
          containers:  
             - name: hospitalservice
               image: adeola1976/hospital:latest
+
+---
+ apiVersion: v1
+ kind: Service
+ metadata:
+   name: hospital-clusterip-srv
+ spec:
+   type: ClusterIP
+   selector:
+      app: hospitalservice
+   ports:
+      - name: hospitalservice
+        protocol: TCP
+        port: 80
+        targetPort: 80

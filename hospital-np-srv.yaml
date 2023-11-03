@@ -1,4 +1,4 @@
-﻿ apiVersion: v1
+ apiVersion: v1
  kind: Service
  metadata:
    name: hospitalservice-srv
@@ -6,7 +6,7 @@
    type: NodePort
    selector:
       app: hospitalservice
-   ports:
+   ports: 
       - name: hospitalservice
         protocol: TCP
         port: 80

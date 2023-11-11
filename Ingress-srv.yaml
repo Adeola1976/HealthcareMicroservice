@@ -1,0 +1,27 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+   name: ingress-srv
+   annotations:
+      kubernetes.io/ingress.class: nginx
+      nginx.ingress.kubernetes.io/use-regex: 'true'
+spec:
+   rules:
+      - host: adexcodemankb.com 
+        http:
+           paths:
+              - path: /api/hospital
+                pathType: Prefix
+                backend:
+                   service:
+                      name: hospital-clusterip-srv
+                      port:
+                         number: 80
+              - path: /api/userhospital
+                pathType: Prefix
+                backend:
+                   service:
+                      name: user-clusterip-srv
+                      port:
+                         number: 80
+

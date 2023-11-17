@@ -18,8 +18,24 @@ namespace Hospital.API.Extension
                .AllowAnyHeader());
          });
 
-        public static void ConfigureInMemoryDatabaseContext(this IServiceCollection services) =>
-        services.AddDbContext<RepositoryContext>(options => options.UseInMemoryDatabase("InMem"));
+        public static void ConfigureInMemoryDatabaseContext(this IServiceCollection services, IWebHostEnvironment env, IConfiguration configuration)
+        {
+            if (env.IsProduction())
+            {
+                Console.WriteLine("----> using sql server  database");
+                services.AddDbContext<RepositoryContext>(opts => opts.UseSqlServer(configuration.GetConnectionString("DefaultConnection"), b => b.MigrationsAssembly("Hospital.API")));
+            }
+               
+            else
+            {
+                Console.WriteLine("----> using Inmemory database");
+                services.AddDbContext<RepositoryContext>(options => options.UseInMemoryDatabase("InMem"));
+                //services.AddDbContext<RepositoryContext>(opts => opts.UseSqlServer(configuration.GetConnectionString("DefaultConnection"), b => b.MigrationsAssembly("Hospital.API")));
+            }
+
+        }
+
+    
 
         public static void ConfigureRepositoryManager(this IServiceCollection services) =>
         services.AddScoped<IRepositoryManager, RepositoryManager>();

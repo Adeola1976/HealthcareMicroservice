@@ -15,6 +15,10 @@ namespace Hospital.Infrastructure.Implementation.Repository
 
         }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+        }
+
         public DbSet<Address> Address { get; set; }
         public DbSet<Hospitals> Hospital { get; set; }
         public DbSet<Resources> Resources { get; set; }

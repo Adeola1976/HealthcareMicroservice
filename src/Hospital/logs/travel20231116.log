@@ -1,0 +1,38 @@
+2023-11-16 16:01:14.655 +01:00 INF Now listening on: https://localhost:7071 
+2023-11-16 16:01:14.759 +01:00 INF Now listening on: http://localhost:5291 
+2023-11-16 16:01:14.767 +01:00 INF Application started. Press Ctrl+C to shut down. 
+2023-11-16 16:01:14.769 +01:00 INF Hosting environment: Development 
+2023-11-16 16:01:14.770 +01:00 INF Content root path: C:\Users\Ogunleyeaad\source\repos\project\HealthcareMicroservice\src\Hospital\Hospital.API\ 
+2023-11-16 16:01:17.670 +01:00 INF Request starting HTTP/2 GET https://localhost:7071/swagger - - 
+2023-11-16 16:01:19.610 +01:00 INF Request finished HTTP/2 GET https://localhost:7071/swagger - - - 301 0 - 2034.0589ms 
+2023-11-16 16:01:20.488 +01:00 INF Request starting HTTP/2 GET https://localhost:7071/swagger/index.html - - 
+2023-11-16 16:01:21.303 +01:00 INF Request finished HTTP/2 GET https://localhost:7071/swagger/index.html - - - 200 - text/html;charset=utf-8 814.7984ms 
+2023-11-16 16:01:21.337 +01:00 INF Request starting HTTP/2 GET https://localhost:7071/swagger/swagger-ui.css - - 
+2023-11-16 16:01:21.337 +01:00 INF Request starting HTTP/2 GET https://localhost:7071/swagger/swagger-ui-bundle.js - - 
+2023-11-16 16:01:21.353 +01:00 INF Request starting HTTP/2 GET https://localhost:7071/swagger/swagger-ui-standalone-preset.js - - 
+2023-11-16 16:01:21.353 +01:00 INF Request starting HTTP/2 GET https://localhost:7071/_framework/aspnetcore-browser-refresh.js - - 
+2023-11-16 16:01:21.366 +01:00 INF Request finished HTTP/2 GET https://localhost:7071/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 12.4856ms 
+2023-11-16 16:01:21.451 +01:00 INF Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+2023-11-16 16:01:21.451 +01:00 INF Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' 
+2023-11-16 16:01:21.451 +01:00 INF Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' 
+2023-11-16 16:01:21.454 +01:00 INF Request finished HTTP/2 GET https://localhost:7071/swagger/swagger-ui.css - - - 200 143632 text/css 117.2112ms 
+2023-11-16 16:01:21.455 +01:00 INF Request finished HTTP/2 GET https://localhost:7071/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 118.4159ms 
+2023-11-16 16:01:21.457 +01:00 INF Request finished HTTP/2 GET https://localhost:7071/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 103.5018ms 
+2023-11-16 16:01:21.487 +01:00 INF Request starting HTTP/2 GET https://localhost:7071/_vs/browserLink - - 
+2023-11-16 16:01:21.712 +01:00 INF Request finished HTTP/2 GET https://localhost:7071/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 225.3261ms 
+2023-11-16 16:01:21.852 +01:00 INF Request starting HTTP/2 GET https://localhost:7071/swagger/v1/swagger.json - - 
+2023-11-16 16:01:21.889 +01:00 INF Request starting HTTP/2 GET https://localhost:7071/swagger/favicon-32x32.png - - 
+2023-11-16 16:01:21.897 +01:00 INF Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' 
+2023-11-16 16:01:21.923 +01:00 INF Request finished HTTP/2 GET https://localhost:7071/swagger/favicon-32x32.png - - - 200 628 image/png 33.4913ms 
+2023-11-16 16:01:22.157 +01:00 INF Request finished HTTP/2 GET https://localhost:7071/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 304.9497ms 
+2023-11-16 21:13:53.367 +01:00 INF Now listening on: https://localhost:7071 
+2023-11-16 21:13:56.363 +01:00 INF Now listening on: http://localhost:5291 
+2023-11-16 21:13:56.458 +01:00 INF Application started. Press Ctrl+C to shut down. 
+2023-11-16 21:13:56.558 +01:00 INF Hosting environment: Development 
+2023-11-16 21:13:56.576 +01:00 INF Content root path: C:\Users\Ogunleyeaad\source\repos\project\HealthcareMicroservice\src\Hospital\Hospital.API\ 
+2023-11-16 21:14:50.818 +01:00 INF Request starting HTTP/2 GET https://localhost:7071/swagger/index.html - - 
+2023-11-16 21:15:18.978 +01:00 INF Request finished HTTP/2 GET https://localhost:7071/swagger/index.html - - - 200 - text/html;charset=utf-8 28193.5166ms 
+2023-11-16 21:16:05.856 +01:00 INF Request starting HTTP/2 GET https://localhost:7071/_framework/aspnetcore-browser-refresh.js - - 
+2023-11-16 21:16:06.541 +01:00 INF Request finished HTTP/2 GET https://localhost:7071/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 685.4736ms 
+2023-11-16 21:16:07.016 +01:00 INF Request starting HTTP/2 GET https://localhost:7071/_vs/browserLink - - 
+2023-11-16 21:16:09.855 +01:00 INF Request finished HTTP/2 GET https://localhost:7071/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2838.3951ms 

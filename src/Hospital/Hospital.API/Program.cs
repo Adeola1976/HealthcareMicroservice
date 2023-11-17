@@ -16,7 +16,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.ConfigureCors();
 builder.Services.ConfigureHttpClient();
 builder.Services.ConfigureRepositoryManager();
-builder.Services.ConfigureInMemoryDatabaseContext();
+builder.Services.ConfigureInMemoryDatabaseContext(builder.Environment,builder.Configuration);
 builder.Services.ConfigureServiceManager();
 builder.Services.AddAutoMapper(typeof(Program));
 

@@ -48,7 +48,7 @@ namespace Hospital.Infrastructure.Implementation.Service
                 userHospitalRequest.HospitalId = hospitalEntity.HospitalId;
                 _repositoryManager.Hospital.CreateHospital(hospitalEntity);  
                 var url = $"{_configuration.GetSection("ExternalApis")["User"]}/api/UserHospital/createhospital";
-                _logger.LogInformation($"The url to reach out to user endpoint is {url}, no caps appsettings");
+                _logger.LogInformation($"The url to reach out to user endpoint is {url}, say yes to caps appsettings");
                 var apirequest = new PostRequest<UserHospitalForCreationDto>
                 {
                     Url = url,

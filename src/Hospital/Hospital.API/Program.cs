@@ -17,6 +17,7 @@ builder.Services.ConfigureCors();
 builder.Services.ConfigureHttpClient();
 builder.Services.ConfigureRepositoryManager();
 builder.Services.ConfigureInMemoryDatabaseContext(builder.Environment,builder.Configuration);
+builder.Services.ConfigureMessageBusService();
 builder.Services.ConfigureServiceManager();
 builder.Services.AddAutoMapper(typeof(Program));
 

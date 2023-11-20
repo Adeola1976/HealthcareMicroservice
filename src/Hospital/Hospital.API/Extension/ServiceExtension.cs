@@ -61,5 +61,6 @@ namespace Hospital.API.Extension
             services.AddScoped<IHttpService, HttpService>();
         }
 
+        public static void ConfigureMessageBusService(this IServiceCollection services) => services.AddSingleton<IMessageBusClient, MessageBusClient>();
     }
 }

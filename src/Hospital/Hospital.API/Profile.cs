@@ -12,6 +12,7 @@ namespace Hospital.API
             CreateMap<Hospitals, HospitalForCreationDto>().ReverseMap();
             CreateMap<Hospitals, GetHospitalResponse>().ReverseMap();
             CreateMap<UserHospitalForCreationDto, HospitalForCreationDto>().ReverseMap();
+            CreateMap<UserHospitalForCreationDto, HospitalPublishedDto>().ReverseMap(); 
         }
     }
 }

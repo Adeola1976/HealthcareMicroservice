@@ -24,14 +24,16 @@ namespace Hospital.Infrastructure.Implementation.Service
         private readonly IMapper _mapper;
         private readonly IHttpService _httpService;
         private readonly IConfiguration _configuration;
+        private readonly IMessageBusClient _messageBusClient;
 
-        public HospitalService(IRepositoryManager repositoryManager, IMapper mapper, ILogger<HospitalService> logger, IHttpService httpService, IConfiguration configuration)
+        public HospitalService(IRepositoryManager repositoryManager, IMapper mapper, ILogger<HospitalService> logger, IHttpService httpService, IConfiguration configuration, IMessageBusClient messageBusClient)
         {
             _repositoryManager = repositoryManager;
             _mapper = mapper;
             _logger = logger;
             _httpService = httpService;
             _configuration = configuration;
+            _messageBusClient = messageBusClient;
         }
 
         public async Task<GenericResponse<string>> CreateHospitalAsync(HospitalForCreationDto request)
@@ -54,8 +56,17 @@ namespace Hospital.Infrastructure.Implementation.Service
                     Url = url,
                     Data = userHospitalRequest
                 };
-                var response = await _httpService.SendPostRequest<ApiResponse, UserHospitalForCreationDto>(apirequest);
-                _logger.LogInformation($"The response from the api is {response}");
+
+                   // i comment it to to only use one means of communication
+                   // Synchronous messaging
+                  // var response = await _httpService.SendPostRequest<ApiResponse, UserHospitalForCreationDto>(apirequest);
+                 // _logger.LogInformation($"The response from the api is {response}");
+
+                //Asynchronous messaging
+                 var message = _mapper.Map<HospitalPublishedDto>(userHospitalRequest);
+                 message.Event = "HospitalCreationEvent";
+                _messageBusClient.PulishHospitalMessage(message);
+                
                 await _repositoryManager.SaveAsync();
                 _logger.LogInformation($"request saved in database");
                 return new GenericResponse<string>()

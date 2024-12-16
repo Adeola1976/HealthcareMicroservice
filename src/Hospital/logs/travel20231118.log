@@ -1,0 +1,198 @@
+2023-11-18 19:06:15.629 +01:00 INF Now listening on: https://localhost:7071 
+2023-11-18 19:06:16.746 +01:00 INF Now listening on: http://localhost:5291 
+2023-11-18 19:06:16.778 +01:00 INF Application started. Press Ctrl+C to shut down. 
+2023-11-18 19:06:16.788 +01:00 INF Hosting environment: Development 
+2023-11-18 19:06:16.857 +01:00 INF Content root path: C:\Users\Ogunleyeaad\source\repos\project\HealthcareMicroservice\src\Hospital\Hospital.API\ 
+2023-11-18 19:08:39.585 +01:00 INF Now listening on: https://localhost:7071 
+2023-11-18 19:08:39.700 +01:00 INF Now listening on: http://localhost:5291 
+2023-11-18 19:08:39.713 +01:00 INF Application started. Press Ctrl+C to shut down. 
+2023-11-18 19:08:39.715 +01:00 INF Hosting environment: Development 
+2023-11-18 19:08:39.717 +01:00 INF Content root path: C:\Users\Ogunleyeaad\source\repos\project\HealthcareMicroservice\src\Hospital\Hospital.API\ 
+2023-11-18 19:11:21.846 +01:00 INF Now listening on: http://localhost:7071 
+2023-11-18 19:11:21.961 +01:00 INF Now listening on: http://localhost:5291 
+2023-11-18 19:11:21.967 +01:00 INF Application started. Press Ctrl+C to shut down. 
+2023-11-18 19:11:21.979 +01:00 INF Hosting environment: Development 
+2023-11-18 19:11:21.980 +01:00 INF Content root path: C:\Users\Ogunleyeaad\source\repos\project\HealthcareMicroservice\src\Hospital\Hospital.API\ 
+2023-11-18 19:11:24.224 +01:00 INF Request starting HTTP/1.1 GET http://localhost:7071/swagger - - 
+2023-11-18 19:11:24.740 +01:00 INF Request finished HTTP/1.1 GET http://localhost:7071/swagger - - - 301 0 - 522.4929ms 
+2023-11-18 19:11:24.813 +01:00 INF Request starting HTTP/1.1 GET http://localhost:7071/swagger/index.html - - 
+2023-11-18 19:11:25.007 +01:00 INF Request finished HTTP/1.1 GET http://localhost:7071/swagger/index.html - - - 200 - text/html;charset=utf-8 193.2366ms 
+2023-11-18 19:11:25.057 +01:00 INF Request starting HTTP/1.1 GET http://localhost:7071/swagger/swagger-ui-bundle.js - - 
+2023-11-18 19:11:25.071 +01:00 INF Request starting HTTP/1.1 GET http://localhost:7071/swagger/swagger-ui-standalone-preset.js - - 
+2023-11-18 19:11:25.075 +01:00 INF Request starting HTTP/1.1 GET http://localhost:7071/swagger/swagger-ui.css - - 
+2023-11-18 19:11:25.072 +01:00 INF Request starting HTTP/1.1 GET http://localhost:7071/_framework/aspnetcore-browser-refresh.js - - 
+2023-11-18 19:11:25.135 +01:00 INF Request finished HTTP/1.1 GET http://localhost:7071/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 62.4309ms 
+2023-11-18 19:11:25.344 +01:00 INF Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' 
+2023-11-18 19:11:25.344 +01:00 INF Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+2023-11-18 19:11:25.362 +01:00 INF Request finished HTTP/1.1 GET http://localhost:7071/swagger/swagger-ui.css - - - 200 143632 text/css 286.7626ms 
+2023-11-18 19:11:25.362 +01:00 INF Request finished HTTP/1.1 GET http://localhost:7071/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 290.1334ms 
+2023-11-18 19:11:25.433 +01:00 INF Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' 
+2023-11-18 19:11:25.435 +01:00 INF Request finished HTTP/1.1 GET http://localhost:7071/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 377.7113ms 
+2023-11-18 19:11:25.877 +01:00 INF Request starting HTTP/1.1 GET http://localhost:7071/swagger/favicon-32x32.png - - 
+2023-11-18 19:11:25.877 +01:00 INF Request starting HTTP/1.1 GET http://localhost:7071/swagger/v1/swagger.json - - 
+2023-11-18 19:11:25.890 +01:00 INF Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' 
+2023-11-18 19:11:25.892 +01:00 INF Request finished HTTP/1.1 GET http://localhost:7071/swagger/favicon-32x32.png - - - 200 628 image/png 14.6157ms 
+2023-11-18 19:11:26.210 +01:00 INF Request finished HTTP/1.1 GET http://localhost:7071/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 332.8563ms 
+2023-11-18 19:46:06.959 +01:00 INF Now listening on: http://localhost:7071 
+2023-11-18 19:46:07.055 +01:00 INF Now listening on: http://localhost:5291 
+2023-11-18 19:46:07.062 +01:00 INF Application started. Press Ctrl+C to shut down. 
+2023-11-18 19:46:07.064 +01:00 INF Hosting environment: Development 
+2023-11-18 19:46:07.066 +01:00 INF Content root path: C:\Users\Ogunleyeaad\source\repos\project\HealthcareMicroservice\src\Hospital\Hospital.API\ 
+2023-11-18 19:46:21.176 +01:00 INF Request starting HTTP/1.1 GET http://localhost:7071/swagger/index.html - - 
+2023-11-18 19:46:22.109 +01:00 INF Request finished HTTP/1.1 GET http://localhost:7071/swagger/index.html - - - 200 - text/html;charset=utf-8 933.7825ms 
+2023-11-18 19:46:22.336 +01:00 INF Request starting HTTP/1.1 GET http://localhost:7071/_framework/aspnetcore-browser-refresh.js - - 
+2023-11-18 19:46:22.347 +01:00 INF Request finished HTTP/1.1 GET http://localhost:7071/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 11.0155ms 
+2023-11-18 19:46:22.499 +01:00 INF Request starting HTTP/1.1 GET http://localhost:7071/_vs/browserLink - - 
+2023-11-18 19:46:22.853 +01:00 INF Request finished HTTP/1.1 GET http://localhost:7071/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 354.2858ms 
+2023-11-18 19:46:24.132 +01:00 INF Request starting HTTP/1.1 GET http://localhost:7071/swagger/v1/swagger.json - - 
+2023-11-18 19:46:24.475 +01:00 INF Request finished HTTP/1.1 GET http://localhost:7071/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 342.6461ms 
+2023-11-18 19:47:33.628 +01:00 INF Now listening on: https://localhost:7071 
+2023-11-18 19:47:33.779 +01:00 INF Now listening on: http://localhost:5291 
+2023-11-18 19:47:33.847 +01:00 INF Application started. Press Ctrl+C to shut down. 
+2023-11-18 19:47:33.862 +01:00 INF Hosting environment: Development 
+2023-11-18 19:47:33.864 +01:00 INF Content root path: C:\Users\Ogunleyeaad\source\repos\project\HealthcareMicroservice\src\Hospital\Hospital.API\ 
+2023-11-18 19:47:37.497 +01:00 INF Request starting HTTP/2 GET https://localhost:7071/swagger/index.html - - 
+2023-11-18 19:47:38.764 +01:00 INF Request finished HTTP/2 GET https://localhost:7071/swagger/index.html - - - 200 - text/html;charset=utf-8 1275.0802ms 
+2023-11-18 19:47:38.816 +01:00 INF Request starting HTTP/2 GET https://localhost:7071/_framework/aspnetcore-browser-refresh.js - - 
+2023-11-18 19:47:39.004 +01:00 INF Request starting HTTP/2 GET https://localhost:7071/_vs/browserLink - - 
+2023-11-18 19:47:44.566 +01:00 INF Request finished HTTP/2 GET https://localhost:7071/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 5750.0434ms 
+2023-11-18 19:47:44.648 +01:00 INF Request finished HTTP/2 GET https://localhost:7071/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 5643.9608ms 
+2023-11-18 19:47:44.724 +01:00 INF Request starting HTTP/2 GET https://localhost:7071/swagger/v1/swagger.json - - 
+2023-11-18 19:47:44.997 +01:00 INF Request finished HTTP/2 GET https://localhost:7071/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 272.9640ms 
+2023-11-18 19:49:31.222 +01:00 INF Request starting HTTP/2 POST https://localhost:7071/api/Hospital/createhospital application/json 164 
+2023-11-18 19:49:31.242 +01:00 INF Executing endpoint 'Hospital.API.Controllers.HospitalController.CreateHospital (Hospital.API)' 
+2023-11-18 19:49:31.291 +01:00 INF Route matched with {action = "CreateHospital", controller = "Hospital"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreateHospital(Hospital.Domain.DTOs.Request.HospitalForCreationDto) on controller Hospital.API.Controllers.HospitalController (Hospital.API). 
+2023-11-18 19:49:37.374 +01:00 ERR Error occurred while connecting to a message bus. ERR MESSAGE None of the specified endpoints were reachable 
+2023-11-18 19:49:44.200 +01:00 INF Inside the CreateHospitalAync 
+2023-11-18 19:49:45.055 +01:00 INF payload to create a new hospital is Hospital.Domain.DTOs.Request.HospitalForCreationDto 
+2023-11-18 19:50:00.566 +01:00 INF Entity Framework Core 6.0.0 initialized 'RepositoryContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:6.0.0' with options: StoreName=InMem  
+2023-11-18 19:50:02.355 +01:00 INF The url to reach out to user endpoint is http://user-clusterip-srv:80/api/UserHospital/createhospital, say yes to caps appsettings 
+2023-11-18 19:55:09.306 +01:00 ERR Error occur while creating a new hospital. Error message : Object reference not set to an instance of an object. 
+2023-11-18 19:55:09.320 +01:00 INF Executing OkObjectResult, writing value of type 'Hospital.Application.Utility.GenericResponse`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-11-18 19:55:09.340 +01:00 INF Executed action Hospital.API.Controllers.HospitalController.CreateHospital (Hospital.API) in 338040.4136ms 
+2023-11-18 19:55:09.348 +01:00 INF Executed endpoint 'Hospital.API.Controllers.HospitalController.CreateHospital (Hospital.API)' 
+2023-11-18 19:55:09.362 +01:00 INF Request finished HTTP/2 POST https://localhost:7071/api/Hospital/createhospital application/json 164 - 200 - application/json;+charset=utf-8 338139.9209ms 
+2023-11-18 19:56:35.973 +01:00 INF Now listening on: https://localhost:7071 
+2023-11-18 19:56:36.040 +01:00 INF Now listening on: http://localhost:5291 
+2023-11-18 19:56:36.045 +01:00 INF Application started. Press Ctrl+C to shut down. 
+2023-11-18 19:56:36.046 +01:00 INF Hosting environment: Development 
+2023-11-18 19:56:36.047 +01:00 INF Content root path: C:\Users\Ogunleyeaad\source\repos\project\HealthcareMicroservice\src\Hospital\Hospital.API\ 
+2023-11-18 19:56:39.629 +01:00 INF Request starting HTTP/2 GET https://localhost:7071/swagger/index.html - - 
+2023-11-18 19:56:40.592 +01:00 INF Request finished HTTP/2 GET https://localhost:7071/swagger/index.html - - - 200 - text/html;charset=utf-8 972.6735ms 
+2023-11-18 19:56:40.796 +01:00 INF Request starting HTTP/2 GET https://localhost:7071/_framework/aspnetcore-browser-refresh.js - - 
+2023-11-18 19:56:40.796 +01:00 INF Request starting HTTP/2 GET https://localhost:7071/_vs/browserLink - - 
+2023-11-18 19:56:40.874 +01:00 INF Request finished HTTP/2 GET https://localhost:7071/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 77.6923ms 
+2023-11-18 19:56:41.056 +01:00 INF Request finished HTTP/2 GET https://localhost:7071/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 259.6647ms 
+2023-11-18 19:56:41.243 +01:00 INF Request starting HTTP/2 GET https://localhost:7071/swagger/v1/swagger.json - - 
+2023-11-18 19:56:46.611 +01:00 INF Request finished HTTP/2 GET https://localhost:7071/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 5369.8328ms 
+2023-11-18 19:57:04.682 +01:00 INF Request starting HTTP/2 POST https://localhost:7071/api/Hospital/createhospital application/json 163 
+2023-11-18 19:57:04.696 +01:00 INF Executing endpoint 'Hospital.API.Controllers.HospitalController.CreateHospital (Hospital.API)' 
+2023-11-18 19:57:04.729 +01:00 INF Route matched with {action = "CreateHospital", controller = "Hospital"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreateHospital(Hospital.Domain.DTOs.Request.HospitalForCreationDto) on controller Hospital.API.Controllers.HospitalController (Hospital.API). 
+2023-11-18 19:57:05.301 +01:00 ERR Connected to Rabbit MQ successfully 
+2023-11-18 19:57:11.311 +01:00 INF Inside the CreateHospitalAync 
+2023-11-18 19:57:11.982 +01:00 INF payload to create a new hospital is Hospital.Domain.DTOs.Request.HospitalForCreationDto 
+2023-11-18 19:57:14.877 +01:00 INF Entity Framework Core 6.0.0 initialized 'RepositoryContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:6.0.0' with options: StoreName=InMem  
+2023-11-18 19:57:16.447 +01:00 INF The url to reach out to user endpoint is http://user-clusterip-srv:80/api/UserHospital/createhospital, say yes to caps appsettings 
+2023-11-18 19:57:24.807 +01:00 ERR Your Message is being sent to the message bus 
+2023-11-18 19:57:25.807 +01:00 ERR Dispose our connection 
+2023-11-18 20:06:03.939 +01:00 INF Now listening on: https://localhost:7071 
+2023-11-18 20:06:04.067 +01:00 INF Now listening on: http://localhost:5291 
+2023-11-18 20:06:04.078 +01:00 INF Application started. Press Ctrl+C to shut down. 
+2023-11-18 20:06:04.080 +01:00 INF Hosting environment: Development 
+2023-11-18 20:06:04.081 +01:00 INF Content root path: C:\Users\Ogunleyeaad\source\repos\project\HealthcareMicroservice\src\Hospital\Hospital.API\ 
+2023-11-18 20:06:05.177 +01:00 INF Request starting HTTP/2 GET https://localhost:7071/swagger/index.html - - 
+2023-11-18 20:06:05.670 +01:00 INF Request finished HTTP/2 GET https://localhost:7071/swagger/index.html - - - 200 - text/html;charset=utf-8 496.4253ms 
+2023-11-18 20:06:05.718 +01:00 INF Request starting HTTP/2 GET https://localhost:7071/_framework/aspnetcore-browser-refresh.js - - 
+2023-11-18 20:06:05.718 +01:00 INF Request starting HTTP/2 GET https://localhost:7071/_vs/browserLink - - 
+2023-11-18 20:06:05.739 +01:00 INF Request finished HTTP/2 GET https://localhost:7071/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 21.2299ms 
+2023-11-18 20:06:05.780 +01:00 INF Request finished HTTP/2 GET https://localhost:7071/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 61.5118ms 
+2023-11-18 20:06:05.923 +01:00 INF Request starting HTTP/2 GET https://localhost:7071/swagger/v1/swagger.json - - 
+2023-11-18 20:06:06.189 +01:00 INF Request finished HTTP/2 GET https://localhost:7071/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 266.6345ms 
+2023-11-18 20:06:31.782 +01:00 INF Request starting HTTP/2 POST https://localhost:7071/api/Hospital/createhospital application/json 163 
+2023-11-18 20:06:31.795 +01:00 INF Executing endpoint 'Hospital.API.Controllers.HospitalController.CreateHospital (Hospital.API)' 
+2023-11-18 20:06:31.828 +01:00 INF Route matched with {action = "CreateHospital", controller = "Hospital"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreateHospital(Hospital.Domain.DTOs.Request.HospitalForCreationDto) on controller Hospital.API.Controllers.HospitalController (Hospital.API). 
+2023-11-18 20:06:32.205 +01:00 ERR Connected to Rabbit MQ successfully 
+2023-11-18 20:06:37.937 +01:00 INF Inside the CreateHospitalAync 
+2023-11-18 20:06:38.141 +01:00 INF payload to create a new hospital is Hospital.Domain.DTOs.Request.HospitalForCreationDto 
+2023-11-18 20:06:40.125 +01:00 INF Entity Framework Core 6.0.0 initialized 'RepositoryContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:6.0.0' with options: StoreName=InMem  
+2023-11-18 20:06:45.570 +01:00 INF The url to reach out to user endpoint is http://user-clusterip-srv:80/api/UserHospital/createhospital, say yes to caps appsettings 
+2023-11-18 20:06:50.525 +01:00 ERR Your Message is being sent to the message bus 
+2023-11-18 20:06:50.527 +01:00 ERR Dispose our connection 
+2023-11-18 20:09:05.194 +01:00 INF Now listening on: https://localhost:7071 
+2023-11-18 20:09:05.263 +01:00 INF Now listening on: http://localhost:5291 
+2023-11-18 20:09:05.269 +01:00 INF Application started. Press Ctrl+C to shut down. 
+2023-11-18 20:09:05.270 +01:00 INF Hosting environment: Development 
+2023-11-18 20:09:05.271 +01:00 INF Content root path: C:\Users\Ogunleyeaad\source\repos\project\HealthcareMicroservice\src\Hospital\Hospital.API\ 
+2023-11-18 20:09:06.848 +01:00 INF Request starting HTTP/2 GET https://localhost:7071/swagger/index.html - - 
+2023-11-18 20:09:07.915 +01:00 INF Request finished HTTP/2 GET https://localhost:7071/swagger/index.html - - - 200 - text/html;charset=utf-8 1138.3107ms 
+2023-11-18 20:09:07.958 +01:00 INF Request starting HTTP/2 GET https://localhost:7071/_vs/browserLink - - 
+2023-11-18 20:09:07.960 +01:00 INF Request starting HTTP/2 GET https://localhost:7071/_framework/aspnetcore-browser-refresh.js - - 
+2023-11-18 20:09:08.012 +01:00 INF Request finished HTTP/2 GET https://localhost:7071/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 51.8732ms 
+2023-11-18 20:09:08.139 +01:00 INF Request finished HTTP/2 GET https://localhost:7071/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 180.6803ms 
+2023-11-18 20:09:08.295 +01:00 INF Request starting HTTP/2 GET https://localhost:7071/swagger/v1/swagger.json - - 
+2023-11-18 20:09:08.538 +01:00 INF Request finished HTTP/2 GET https://localhost:7071/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 243.1914ms 
+2023-11-18 20:09:26.081 +01:00 INF Request starting HTTP/2 POST https://localhost:7071/api/Hospital/createhospital application/json 164 
+2023-11-18 20:09:26.099 +01:00 INF Executing endpoint 'Hospital.API.Controllers.HospitalController.CreateHospital (Hospital.API)' 
+2023-11-18 20:09:26.137 +01:00 INF Route matched with {action = "CreateHospital", controller = "Hospital"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreateHospital(Hospital.Domain.DTOs.Request.HospitalForCreationDto) on controller Hospital.API.Controllers.HospitalController (Hospital.API). 
+2023-11-18 20:09:26.556 +01:00 ERR Connected to Rabbit MQ successfully 
+2023-11-18 20:09:31.787 +01:00 INF Inside the CreateHospitalAync 
+2023-11-18 20:09:31.995 +01:00 INF payload to create a new hospital is Hospital.Domain.DTOs.Request.HospitalForCreationDto 
+2023-11-18 20:09:33.954 +01:00 INF Entity Framework Core 6.0.0 initialized 'RepositoryContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:6.0.0' with options: StoreName=InMem  
+2023-11-18 20:09:35.264 +01:00 INF The url to reach out to user endpoint is http://user-clusterip-srv:80/api/UserHospital/createhospital, say yes to caps appsettings 
+2023-11-18 20:09:39.035 +01:00 ERR Your Message is being sent to the message bus 
+2023-11-18 20:13:59.204 +01:00 INF Now listening on: https://localhost:7071 
+2023-11-18 20:13:59.272 +01:00 INF Now listening on: http://localhost:5291 
+2023-11-18 20:13:59.280 +01:00 INF Application started. Press Ctrl+C to shut down. 
+2023-11-18 20:13:59.282 +01:00 INF Hosting environment: Development 
+2023-11-18 20:13:59.284 +01:00 INF Content root path: C:\Users\Ogunleyeaad\source\repos\project\HealthcareMicroservice\src\Hospital\Hospital.API\ 
+2023-11-18 20:14:00.193 +01:00 INF Request starting HTTP/2 GET https://localhost:7071/swagger/index.html - - 
+2023-11-18 20:14:00.726 +01:00 INF Request finished HTTP/2 GET https://localhost:7071/swagger/index.html - - - 200 - text/html;charset=utf-8 541.5867ms 
+2023-11-18 20:14:00.767 +01:00 INF Request starting HTTP/2 GET https://localhost:7071/_framework/aspnetcore-browser-refresh.js - - 
+2023-11-18 20:14:00.767 +01:00 INF Request starting HTTP/2 GET https://localhost:7071/_vs/browserLink - - 
+2023-11-18 20:14:00.776 +01:00 INF Request finished HTTP/2 GET https://localhost:7071/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 9.1112ms 
+2023-11-18 20:14:00.804 +01:00 INF Request finished HTTP/2 GET https://localhost:7071/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 37.3353ms 
+2023-11-18 20:14:00.902 +01:00 INF Request starting HTTP/2 GET https://localhost:7071/swagger/v1/swagger.json - - 
+2023-11-18 20:14:01.116 +01:00 INF Request finished HTTP/2 GET https://localhost:7071/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 213.7033ms 
+2023-11-18 20:14:20.567 +01:00 INF Request starting HTTP/2 POST https://localhost:7071/api/Hospital/createhospital application/json 163 
+2023-11-18 20:14:20.582 +01:00 INF Executing endpoint 'Hospital.API.Controllers.HospitalController.CreateHospital (Hospital.API)' 
+2023-11-18 20:14:20.620 +01:00 INF Route matched with {action = "CreateHospital", controller = "Hospital"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreateHospital(Hospital.Domain.DTOs.Request.HospitalForCreationDto) on controller Hospital.API.Controllers.HospitalController (Hospital.API). 
+2023-11-18 20:14:21.246 +01:00 ERR Connected to Rabbit MQ successfully 
+2023-11-18 20:14:28.028 +01:00 INF Inside the CreateHospitalAync 
+2023-11-18 20:14:28.297 +01:00 INF payload to create a new hospital is Hospital.Domain.DTOs.Request.HospitalForCreationDto 
+2023-11-18 20:14:33.592 +01:00 INF Entity Framework Core 6.0.0 initialized 'RepositoryContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:6.0.0' with options: StoreName=InMem  
+2023-11-18 20:14:34.265 +01:00 INF The url to reach out to user endpoint is http://user-clusterip-srv:80/api/UserHospital/createhospital, say yes to caps appsettings 
+2023-11-18 20:14:36.807 +01:00 ERR Your Message is being sent to the message bus 
+2023-11-18 20:15:16.804 +01:00 INF Saved 1 entities to in-memory store. 
+2023-11-18 20:15:18.527 +01:00 INF request saved in database 
+2023-11-18 20:15:21.883 +01:00 INF Executing OkObjectResult, writing value of type 'Hospital.Application.Utility.GenericResponse`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-11-18 20:15:21.899 +01:00 INF Executed action Hospital.API.Controllers.HospitalController.CreateHospital (Hospital.API) in 61266.7292ms 
+2023-11-18 20:15:21.901 +01:00 INF Executed endpoint 'Hospital.API.Controllers.HospitalController.CreateHospital (Hospital.API)' 
+2023-11-18 20:15:21.907 +01:00 INF Request finished HTTP/2 POST https://localhost:7071/api/Hospital/createhospital application/json 163 - 200 - application/json;+charset=utf-8 61340.5047ms 
+2023-11-18 20:15:24.768 +01:00 INF Request starting HTTP/2 POST https://localhost:7071/api/Hospital/createhospital application/json 163 
+2023-11-18 20:15:24.771 +01:00 INF Executing endpoint 'Hospital.API.Controllers.HospitalController.CreateHospital (Hospital.API)' 
+2023-11-18 20:15:24.773 +01:00 INF Route matched with {action = "CreateHospital", controller = "Hospital"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreateHospital(Hospital.Domain.DTOs.Request.HospitalForCreationDto) on controller Hospital.API.Controllers.HospitalController (Hospital.API). 
+2023-11-18 20:15:27.144 +01:00 INF Inside the CreateHospitalAync 
+2023-11-18 20:15:27.145 +01:00 INF payload to create a new hospital is Hospital.Domain.DTOs.Request.HospitalForCreationDto 
+2023-11-18 20:15:27.172 +01:00 INF Entity Framework Core 6.0.0 initialized 'RepositoryContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:6.0.0' with options: StoreName=InMem  
+2023-11-18 20:15:27.175 +01:00 INF The url to reach out to user endpoint is http://user-clusterip-srv:80/api/UserHospital/createhospital, say yes to caps appsettings 
+2023-11-18 20:15:27.177 +01:00 ERR Your Message is being sent to the message bus 
+2023-11-18 20:15:27.180 +01:00 INF Saved 1 entities to in-memory store. 
+2023-11-18 20:15:27.181 +01:00 INF request saved in database 
+2023-11-18 20:15:27.183 +01:00 INF Executing OkObjectResult, writing value of type 'Hospital.Application.Utility.GenericResponse`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-11-18 20:15:27.186 +01:00 INF Executed action Hospital.API.Controllers.HospitalController.CreateHospital (Hospital.API) in 2409.6428ms 
+2023-11-18 20:15:27.187 +01:00 INF Executed endpoint 'Hospital.API.Controllers.HospitalController.CreateHospital (Hospital.API)' 
+2023-11-18 20:15:27.188 +01:00 INF Request finished HTTP/2 POST https://localhost:7071/api/Hospital/createhospital application/json 163 - 200 - application/json;+charset=utf-8 2420.7279ms 
+2023-11-18 20:15:30.249 +01:00 INF Request starting HTTP/2 POST https://localhost:7071/api/Hospital/createhospital application/json 163 
+2023-11-18 20:15:30.252 +01:00 INF Executing endpoint 'Hospital.API.Controllers.HospitalController.CreateHospital (Hospital.API)' 
+2023-11-18 20:15:30.259 +01:00 INF Route matched with {action = "CreateHospital", controller = "Hospital"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreateHospital(Hospital.Domain.DTOs.Request.HospitalForCreationDto) on controller Hospital.API.Controllers.HospitalController (Hospital.API). 
+2023-11-18 20:15:33.475 +01:00 INF Inside the CreateHospitalAync 
+2023-11-18 20:15:33.476 +01:00 INF payload to create a new hospital is Hospital.Domain.DTOs.Request.HospitalForCreationDto 
+2023-11-18 20:15:33.494 +01:00 INF Entity Framework Core 6.0.0 initialized 'RepositoryContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:6.0.0' with options: StoreName=InMem  
+2023-11-18 20:15:33.499 +01:00 INF The url to reach out to user endpoint is http://user-clusterip-srv:80/api/UserHospital/createhospital, say yes to caps appsettings 
+2023-11-18 20:15:33.501 +01:00 ERR Your Message is being sent to the message bus 
+2023-11-18 20:15:33.503 +01:00 INF Saved 1 entities to in-memory store. 
+2023-11-18 20:15:33.505 +01:00 INF request saved in database 
+2023-11-18 20:15:33.508 +01:00 INF Executing OkObjectResult, writing value of type 'Hospital.Application.Utility.GenericResponse`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-11-18 20:15:33.510 +01:00 INF Executed action Hospital.API.Controllers.HospitalController.CreateHospital (Hospital.API) in 3240.8365ms 
+2023-11-18 20:15:33.511 +01:00 INF Executed endpoint 'Hospital.API.Controllers.HospitalController.CreateHospital (Hospital.API)' 
+2023-11-18 20:15:33.512 +01:00 INF Request finished HTTP/2 POST https://localhost:7071/api/Hospital/createhospital application/json 163 - 200 - application/json;+charset=utf-8 3263.6199ms 

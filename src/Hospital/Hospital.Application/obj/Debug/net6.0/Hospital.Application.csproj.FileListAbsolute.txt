@@ -1,0 +1,15 @@
+C:\Users\Ogunleyeaad\source\repos\project\HealthcareMicroservice\src\Hospital\Hospital.Application\bin\Debug\net6.0\Hospital.Application.deps.json
+C:\Users\Ogunleyeaad\source\repos\project\HealthcareMicroservice\src\Hospital\Hospital.Application\bin\Debug\net6.0\Hospital.Application.dll
+C:\Users\Ogunleyeaad\source\repos\project\HealthcareMicroservice\src\Hospital\Hospital.Application\bin\Debug\net6.0\Hospital.Application.pdb
+C:\Users\Ogunleyeaad\source\repos\project\HealthcareMicroservice\src\Hospital\Hospital.Application\bin\Debug\net6.0\Hospital.Domain.dll
+C:\Users\Ogunleyeaad\source\repos\project\HealthcareMicroservice\src\Hospital\Hospital.Application\bin\Debug\net6.0\Hospital.Domain.pdb
+C:\Users\Ogunleyeaad\source\repos\project\HealthcareMicroservice\src\Hospital\Hospital.Application\obj\Debug\net6.0\Hospital.Application.csproj.AssemblyReference.cache
+C:\Users\Ogunleyeaad\source\repos\project\HealthcareMicroservice\src\Hospital\Hospital.Application\obj\Debug\net6.0\Hospital.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ogunleyeaad\source\repos\project\HealthcareMicroservice\src\Hospital\Hospital.Application\obj\Debug\net6.0\Hospital.Application.AssemblyInfoInputs.cache
+C:\Users\Ogunleyeaad\source\repos\project\HealthcareMicroservice\src\Hospital\Hospital.Application\obj\Debug\net6.0\Hospital.Application.AssemblyInfo.cs
+C:\Users\Ogunleyeaad\source\repos\project\HealthcareMicroservice\src\Hospital\Hospital.Application\obj\Debug\net6.0\Hospital.Application.csproj.CoreCompileInputs.cache
+C:\Users\Ogunleyeaad\source\repos\project\HealthcareMicroservice\src\Hospital\Hospital.Application\obj\Debug\net6.0\Hospital.Application.csproj.CopyComplete
+C:\Users\Ogunleyeaad\source\repos\project\HealthcareMicroservice\src\Hospital\Hospital.Application\obj\Debug\net6.0\Hospital.Application.dll
+C:\Users\Ogunleyeaad\source\repos\project\HealthcareMicroservice\src\Hospital\Hospital.Application\obj\Debug\net6.0\refint\Hospital.Application.dll
+C:\Users\Ogunleyeaad\source\repos\project\HealthcareMicroservice\src\Hospital\Hospital.Application\obj\Debug\net6.0\Hospital.Application.pdb
+C:\Users\Ogunleyeaad\source\repos\project\HealthcareMicroservice\src\Hospital\Hospital.Application\obj\Debug\net6.0\ref\Hospital.Application.dll

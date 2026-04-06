@@ -5,7 +5,47 @@
       "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
       "DisplayName": "Miscellaneous Files",
       "ColorIndex": -1
+    },
+    "a59e2bf6-44a6-475c-99fa-3f7489751361": {
+      "ProjectGuid": "a59e2bf6-44a6-475c-99fa-3f7489751361",
+      "DisplayName": "Hospital.API",
+      "ColorIndex": 0
+    },
+    "e1f402ce-df23-40e9-b4d2-f26b8f9465ed": {
+      "ProjectGuid": "e1f402ce-df23-40e9-b4d2-f26b8f9465ed",
+      "DisplayName": "User.API",
+      "ColorIndex": 1
+    },
+    "86ff9a59-6f39-4621-9b25-d83e9d79bdaf": {
+      "ProjectGuid": "86ff9a59-6f39-4621-9b25-d83e9d79bdaf",
+      "DisplayName": "Hospital.Application",
+      "ColorIndex": 2
+    },
+    "1215f477-f2d1-4ea8-b4cf-a2659b96ec75": {
+      "ProjectGuid": "1215f477-f2d1-4ea8-b4cf-a2659b96ec75",
+      "DisplayName": "Hospital.Domain",
+      "ColorIndex": 3
+    },
+    "08273e5f-fb67-4964-91c1-a2b1cbc22f2d": {
+      "ProjectGuid": "08273e5f-fb67-4964-91c1-a2b1cbc22f2d",
+      "DisplayName": "User.Domain",
+      "ColorIndex": 4
+    },
+    "3aba1071-70bd-475f-938f-261f97d25e3b": {
+      "ProjectGuid": "3aba1071-70bd-475f-938f-261f97d25e3b",
+      "DisplayName": "User.Application",
+      "ColorIndex": 5
+    },
+    "9bde6e60-ca35-4e88-9175-fc06990b2e79": {
+      "ProjectGuid": "9bde6e60-ca35-4e88-9175-fc06990b2e79",
+      "DisplayName": "User.Infrastructure",
+      "ColorIndex": 6
+    },
+    "7edf6860-d6e9-45c3-97b7-b1347fa27b05": {
+      "ProjectGuid": "7edf6860-d6e9-45c3-97b7-b1347fa27b05",
+      "DisplayName": "Hospital.Infrastructure",
+      "ColorIndex": 7
     }
   },
-  "NextColorIndex": 0
+  "NextColorIndex": 8
 }

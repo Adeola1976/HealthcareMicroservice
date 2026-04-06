@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ogunleyeaad\\source\\repos\\project\\HealthcareMicroservice\\src\\Hospital\\Hospital.API\\Hospital.API.csproj": {}
+    "C:\\Users\\hp\\source\\repos\\devops\\HealthcareMicroservice\\src\\Hospital\\Hospital.API\\Hospital.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ogunleyeaad\\source\\repos\\project\\HealthcareMicroservice\\src\\Hospital\\Hospital.API\\Hospital.API.csproj": {
+    "C:\\Users\\hp\\source\\repos\\devops\\HealthcareMicroservice\\src\\Hospital\\Hospital.API\\Hospital.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ogunleyeaad\\source\\repos\\project\\HealthcareMicroservice\\src\\Hospital\\Hospital.API\\Hospital.API.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\source\\repos\\devops\\HealthcareMicroservice\\src\\Hospital\\Hospital.API\\Hospital.API.csproj",
         "projectName": "Hospital.API",
-        "projectPath": "C:\\Users\\Ogunleyeaad\\source\\repos\\project\\HealthcareMicroservice\\src\\Hospital\\Hospital.API\\Hospital.API.csproj",
-        "packagesPath": "C:\\Users\\Ogunleyeaad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ogunleyeaad\\source\\repos\\project\\HealthcareMicroservice\\src\\Hospital\\Hospital.API\\obj\\",
+        "projectPath": "C:\\Users\\hp\\source\\repos\\devops\\HealthcareMicroservice\\src\\Hospital\\Hospital.API\\Hospital.API.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hp\\source\\repos\\devops\\HealthcareMicroservice\\src\\Hospital\\Hospital.API\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Ogunleyeaad\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,15 +22,21 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/peabux/_packaging/Peabux.API.ActiveDirectory/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Ogunleyeaad\\source\\repos\\project\\HealthcareMicroservice\\src\\Hospital\\Hospital.Infrastructure\\Hospital.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Ogunleyeaad\\source\\repos\\project\\HealthcareMicroservice\\src\\Hospital\\Hospital.Infrastructure\\Hospital.Infrastructure.csproj"
+              "C:\\Users\\hp\\source\\repos\\devops\\HealthcareMicroservice\\src\\Hospital\\Hospital.Application\\Hospital.Application.csproj": {
+                "projectPath": "C:\\Users\\hp\\source\\repos\\devops\\HealthcareMicroservice\\src\\Hospital\\Hospital.Application\\Hospital.Application.csproj"
+              },
+              "C:\\Users\\hp\\source\\repos\\devops\\HealthcareMicroservice\\src\\Hospital\\Hospital.Domain\\Hospital.Domain.csproj": {
+                "projectPath": "C:\\Users\\hp\\source\\repos\\devops\\HealthcareMicroservice\\src\\Hospital\\Hospital.Domain\\Hospital.Domain.csproj"
+              },
+              "C:\\Users\\hp\\source\\repos\\devops\\HealthcareMicroservice\\src\\Hospital\\Hospital.Infrastructure\\Hospital.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\hp\\source\\repos\\devops\\HealthcareMicroservice\\src\\Hospital\\Hospital.Infrastructure\\Hospital.Infrastructure.csproj"
               }
             }
           }
@@ -49,15 +51,19 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[7.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[7.0.0, )"
             },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
@@ -78,8 +84,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -91,25 +96,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Ogunleyeaad\\source\\repos\\project\\HealthcareMicroservice\\src\\Hospital\\Hospital.Application\\Hospital.Application.csproj": {
+    "C:\\Users\\hp\\source\\repos\\devops\\HealthcareMicroservice\\src\\Hospital\\Hospital.Application\\Hospital.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ogunleyeaad\\source\\repos\\project\\HealthcareMicroservice\\src\\Hospital\\Hospital.Application\\Hospital.Application.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\source\\repos\\devops\\HealthcareMicroservice\\src\\Hospital\\Hospital.Application\\Hospital.Application.csproj",
         "projectName": "Hospital.Application",
-        "projectPath": "C:\\Users\\Ogunleyeaad\\source\\repos\\project\\HealthcareMicroservice\\src\\Hospital\\Hospital.Application\\Hospital.Application.csproj",
-        "packagesPath": "C:\\Users\\Ogunleyeaad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ogunleyeaad\\source\\repos\\project\\HealthcareMicroservice\\src\\Hospital\\Hospital.Application\\obj\\",
+        "projectPath": "C:\\Users\\hp\\source\\repos\\devops\\HealthcareMicroservice\\src\\Hospital\\Hospital.Application\\Hospital.Application.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hp\\source\\repos\\devops\\HealthcareMicroservice\\src\\Hospital\\Hospital.Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Ogunleyeaad\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -117,15 +118,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/peabux/_packaging/Peabux.API.ActiveDirectory/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Ogunleyeaad\\source\\repos\\project\\HealthcareMicroservice\\src\\Hospital\\Hospital.Domain\\Hospital.Domain.csproj": {
-                "projectPath": "C:\\Users\\Ogunleyeaad\\source\\repos\\project\\HealthcareMicroservice\\src\\Hospital\\Hospital.Domain\\Hospital.Domain.csproj"
+              "C:\\Users\\hp\\source\\repos\\devops\\HealthcareMicroservice\\src\\Hospital\\Hospital.Domain\\Hospital.Domain.csproj": {
+                "projectPath": "C:\\Users\\hp\\source\\repos\\devops\\HealthcareMicroservice\\src\\Hospital\\Hospital.Domain\\Hospital.Domain.csproj"
               }
             }
           }
@@ -145,8 +146,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -155,25 +155,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Ogunleyeaad\\source\\repos\\project\\HealthcareMicroservice\\src\\Hospital\\Hospital.Domain\\Hospital.Domain.csproj": {
+    "C:\\Users\\hp\\source\\repos\\devops\\HealthcareMicroservice\\src\\Hospital\\Hospital.Domain\\Hospital.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ogunleyeaad\\source\\repos\\project\\HealthcareMicroservice\\src\\Hospital\\Hospital.Domain\\Hospital.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\source\\repos\\devops\\HealthcareMicroservice\\src\\Hospital\\Hospital.Domain\\Hospital.Domain.csproj",
         "projectName": "Hospital.Domain",
-        "projectPath": "C:\\Users\\Ogunleyeaad\\source\\repos\\project\\HealthcareMicroservice\\src\\Hospital\\Hospital.Domain\\Hospital.Domain.csproj",
-        "packagesPath": "C:\\Users\\Ogunleyeaad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ogunleyeaad\\source\\repos\\project\\HealthcareMicroservice\\src\\Hospital\\Hospital.Domain\\obj\\",
+        "projectPath": "C:\\Users\\hp\\source\\repos\\devops\\HealthcareMicroservice\\src\\Hospital\\Hospital.Domain\\Hospital.Domain.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hp\\source\\repos\\devops\\HealthcareMicroservice\\src\\Hospital\\Hospital.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Ogunleyeaad\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -181,8 +177,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/peabux/_packaging/Peabux.API.ActiveDirectory/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -205,8 +201,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -215,25 +210,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Ogunleyeaad\\source\\repos\\project\\HealthcareMicroservice\\src\\Hospital\\Hospital.Infrastructure\\Hospital.Infrastructure.csproj": {
+    "C:\\Users\\hp\\source\\repos\\devops\\HealthcareMicroservice\\src\\Hospital\\Hospital.Infrastructure\\Hospital.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ogunleyeaad\\source\\repos\\project\\HealthcareMicroservice\\src\\Hospital\\Hospital.Infrastructure\\Hospital.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\source\\repos\\devops\\HealthcareMicroservice\\src\\Hospital\\Hospital.Infrastructure\\Hospital.Infrastructure.csproj",
         "projectName": "Hospital.Infrastructure",
-        "projectPath": "C:\\Users\\Ogunleyeaad\\source\\repos\\project\\HealthcareMicroservice\\src\\Hospital\\Hospital.Infrastructure\\Hospital.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Ogunleyeaad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ogunleyeaad\\source\\repos\\project\\HealthcareMicroservice\\src\\Hospital\\Hospital.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\hp\\source\\repos\\devops\\HealthcareMicroservice\\src\\Hospital\\Hospital.Infrastructure\\Hospital.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hp\\source\\repos\\devops\\HealthcareMicroservice\\src\\Hospital\\Hospital.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Ogunleyeaad\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -241,18 +232,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/peabux/_packaging/Peabux.API.ActiveDirectory/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Ogunleyeaad\\source\\repos\\project\\HealthcareMicroservice\\src\\Hospital\\Hospital.Application\\Hospital.Application.csproj": {
-                "projectPath": "C:\\Users\\Ogunleyeaad\\source\\repos\\project\\HealthcareMicroservice\\src\\Hospital\\Hospital.Application\\Hospital.Application.csproj"
+              "C:\\Users\\hp\\source\\repos\\devops\\HealthcareMicroservice\\src\\Hospital\\Hospital.Application\\Hospital.Application.csproj": {
+                "projectPath": "C:\\Users\\hp\\source\\repos\\devops\\HealthcareMicroservice\\src\\Hospital\\Hospital.Application\\Hospital.Application.csproj"
               },
-              "C:\\Users\\Ogunleyeaad\\source\\repos\\project\\HealthcareMicroservice\\src\\Hospital\\Hospital.Domain\\Hospital.Domain.csproj": {
-                "projectPath": "C:\\Users\\Ogunleyeaad\\source\\repos\\project\\HealthcareMicroservice\\src\\Hospital\\Hospital.Domain\\Hospital.Domain.csproj"
+              "C:\\Users\\hp\\source\\repos\\devops\\HealthcareMicroservice\\src\\Hospital\\Hospital.Domain\\Hospital.Domain.csproj": {
+                "projectPath": "C:\\Users\\hp\\source\\repos\\devops\\HealthcareMicroservice\\src\\Hospital\\Hospital.Domain\\Hospital.Domain.csproj"
               }
             }
           }
@@ -269,7 +260,7 @@
           "dependencies": {
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
-              "version": "[3.1.18, )"
+              "version": "[12.0.0, )"
             },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
@@ -277,13 +268,13 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[7.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[7.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -293,7 +284,7 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[7.0.0, )"
             },
             "RabbitMQ.Client": {
               "target": "Package",
@@ -310,8 +301,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -320,7 +310,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

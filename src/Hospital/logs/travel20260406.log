@@ -1,0 +1,5 @@
+2026-04-06 15:10:49.646 -04:00 INF Now listening on: https://localhost:7071 
+2026-04-06 15:10:49.809 -04:00 INF Now listening on: http://localhost:5291 
+2026-04-06 15:10:49.832 -04:00 INF Application started. Press Ctrl+C to shut down. 
+2026-04-06 15:10:49.848 -04:00 INF Hosting environment: Development 
+2026-04-06 15:10:49.859 -04:00 INF Content root path: C:\Users\hp\source\repos\devops\HealthcareMicroservice\src\Hospital\Hospital.API\ 

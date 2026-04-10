@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nAcb6vrUAyzpaJp0l8w/RcRx3+2bk94Th1tGWOJRFL15WCcwRq58X2pr3dPYi4+9V/4JxLRaYPAhs8X+aeIaZA==",
+  "dgSpecHash": "tg5/VsmV1iolYXqFRUTd96apiSRDcWjo8NHJRHNQqeAunipLVxu5yczRdbJhYEu+52m3J6wuoKnvN0iNKIxiUw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hp\\source\\repos\\devops\\HealthcareMicroservice\\src\\Hospital\\Hospital.API\\Hospital.API.csproj",
+  "projectFilePath": "C:\\Users\\hp\\source\\repos\\devops\\HealthCareMicroservice\\src\\Hospital\\Hospital.API\\Hospital.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hp\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

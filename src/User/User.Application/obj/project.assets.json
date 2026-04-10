@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hp\\source\\repos\\devops\\HealthcareMicroservice\\src\\User\\User.Application\\User.Application.csproj",
+      "projectUniqueName": "C:\\Users\\hp\\source\\repos\\devops\\HealthCareMicroservice\\src\\User\\User.Application\\User.Application.csproj",
       "projectName": "User.Application",
-      "projectPath": "C:\\Users\\hp\\source\\repos\\devops\\HealthcareMicroservice\\src\\User\\User.Application\\User.Application.csproj",
+      "projectPath": "C:\\Users\\hp\\source\\repos\\devops\\HealthCareMicroservice\\src\\User\\User.Application\\User.Application.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hp\\source\\repos\\devops\\HealthcareMicroservice\\src\\User\\User.Application\\obj\\",
+      "outputPath": "C:\\Users\\hp\\source\\repos\\devops\\HealthCareMicroservice\\src\\User\\User.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -54,8 +54,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\hp\\source\\repos\\devops\\HealthcareMicroservice\\src\\User\\User.Domain\\User.Domain.csproj": {
-              "projectPath": "C:\\Users\\hp\\source\\repos\\devops\\HealthcareMicroservice\\src\\User\\User.Domain\\User.Domain.csproj"
+            "C:\\Users\\hp\\source\\repos\\devops\\HealthCareMicroservice\\src\\User\\User.Domain\\User.Domain.csproj": {
+              "projectPath": "C:\\Users\\hp\\source\\repos\\devops\\HealthCareMicroservice\\src\\User\\User.Domain\\User.Domain.csproj"
             }
           }
         }

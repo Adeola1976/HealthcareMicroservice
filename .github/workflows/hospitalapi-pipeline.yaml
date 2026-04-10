@@ -5,6 +5,8 @@ name: .NET
 
 on:
   pull_request:
+    paths : 
+      - '../src/Hospital/**'
     branches: [ "main" ]
 
 jobs:

@@ -5,17 +5,23 @@ name: .NET
 
 on:
   pull_request:
-    paths : 
-      - 'src/Hospital/**'
     branches: [ "main" ]
 
 jobs:
   build:
 
     runs-on: ubuntu-latest
-
+    outputs:
+      hospital: ${{ steps.filter.outputs.hospital }}
     steps:
     - uses: actions/checkout@v3
+    - name: Detect changes
+      id: filter
+      uses: dorny/paths-filter@v3
+      with:
+          filters: |
+            hospital:
+              - 'src/Hospital/**'
     - name: Setup .NET
       uses: actions/setup-dotnet@v3
       with:

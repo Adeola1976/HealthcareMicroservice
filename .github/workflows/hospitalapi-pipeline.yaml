@@ -10,7 +10,7 @@ on:
 jobs:
   build-hospital:
     needs: changes
-    if: needs.changes.outputs.hospital == 'true'
+    if: needs.changes.outputs.Hospital == 'true'
     runs-on: ubuntu-latest
 
     steps:

@@ -5,13 +5,12 @@ name: .NET
 
 on:
   pull_request:
-    paths : 
-      - 'src/User/**'
     branches: [ "main" ]
 
 jobs:
-  build:
-
+  build-hospital:
+    needs: changes
+    if: needs.changes.outputs.hospital == 'true'
     runs-on: ubuntu-latest
 
     steps:
@@ -23,7 +22,7 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
-      run: dotnet build --no-restore
+      run: dotnet build src/Hospital/Hospital.csproj
     - name: Test
       run: dotnet test --no-build --verbosity normal
     - name: Docker build and push

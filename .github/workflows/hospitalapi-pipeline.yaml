@@ -6,7 +6,7 @@ name: .NET
 on:
   pull_request:
     paths : 
-      - 'src/Hospital/**'
+      - 'src/Hospitals/**'
     branches: [ "main" ]
 
 jobs:

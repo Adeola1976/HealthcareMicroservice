@@ -16,4 +16,4 @@ namespace User.Application.Interface.Repository
         void Update(T entity);
         void Delete(T entity);
     }
-}  
+}  //

@@ -20,8 +20,8 @@ jobs:
       uses: dorny/paths-filter@v3
       with:
           filters: |
-            hospital:
-              - 'src/Hospital/**'
+            user:
+              - 'src/User/**'
     - name: Setup .NET
       uses: actions/setup-dotnet@v3
       with:

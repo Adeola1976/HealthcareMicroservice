@@ -4,14 +4,15 @@
 name: .NET
 
 on:
-  pull_request:
-    branches: [ "main" ]
+   push:
+    branches:
+      - main   # change if needed
     paths:
       - 'src/Hospital/**'
 jobs:
   build:
-
-    runs-on: ubuntu-latest
+ 
+    runs-on: ubuntu-latest 
 
     steps:
     - uses: actions/checkout@v3

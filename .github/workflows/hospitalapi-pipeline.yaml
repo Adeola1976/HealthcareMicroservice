@@ -5,10 +5,9 @@ name: .NET
 
 on:
   push:
+    branches: [ "main" ]
     paths:
       - 'src/Hospital/**'
-    branches: [ "main" ]
-   
 jobs:
   build:
  

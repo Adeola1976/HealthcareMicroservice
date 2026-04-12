@@ -4,8 +4,9 @@
 name: .NET
 
 on:
-  push:
-    branches: [ "main" ]
+   push:
+    branches:
+      - main   # change if needed
     paths:
       - 'src/Hospital/**'
 jobs:

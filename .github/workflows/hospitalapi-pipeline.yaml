@@ -4,14 +4,14 @@
 name: .NET
 
 on:
-  pull_request:
+  push:
     paths:
       - 'src/Hospital/**'
     branches: [ "main" ]
    
 jobs:
   build:
-
+ 
     runs-on: ubuntu-latest 
 
     steps:

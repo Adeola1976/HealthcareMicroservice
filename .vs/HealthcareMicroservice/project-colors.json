@@ -45,7 +45,22 @@
       "ProjectGuid": "7edf6860-d6e9-45c3-97b7-b1347fa27b05",
       "DisplayName": "Hospital.Infrastructure",
       "ColorIndex": 7
+    },
+    "9d4c92a9-21fd-4a03-9403-291e7ff48f8a": {
+      "ProjectGuid": "9d4c92a9-21fd-4a03-9403-291e7ff48f8a",
+      "DisplayName": "K8S",
+      "ColorIndex": 8
+    },
+    "e07dabfb-b5fd-4b42-bedb-35f4622f502c": {
+      "ProjectGuid": "e07dabfb-b5fd-4b42-bedb-35f4622f502c",
+      "DisplayName": "K8S",
+      "ColorIndex": 9
+    },
+    "f70bca16-8830-47a7-930e-fcdea2f4eb6f": {
+      "ProjectGuid": "f70bca16-8830-47a7-930e-fcdea2f4eb6f",
+      "DisplayName": "K8S",
+      "ColorIndex": 10
     }
   },
-  "NextColorIndex": 8
+  "NextColorIndex": 11
 }

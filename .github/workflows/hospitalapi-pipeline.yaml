@@ -6,7 +6,7 @@ name: .NET
 on:
    push:
     branches:
-      - main   # change if needed
+      - test  # change if needed
     paths:
       - 'src/Hospital/**'
 jobs:

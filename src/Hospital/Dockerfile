@@ -9,7 +9,7 @@ COPY src/Hospital/Hospital.Infrastructure/Hospital.Infrastructure.csproj ./Hospi
 
 RUN dotnet restore "Hospital.API/Hospital.API.csproj"
 COPY . . 
-RUN dotnet publish ./Hospital.API/Hospital.API.csproj -o /publish/ 
+RUN dotnet publish src/Hospital/Hospital.API/Hospital.API.csproj -o /publish/ 
 FROM mcr.microsoft.com/dotnet/aspnet:6.0
 WORKDIR /publish 
 COPY --from=build-image /publish . 

@@ -41,6 +41,6 @@ jobs:
           TOKEN: ${{ secrets.TOKEN }}
           BUILD_ID: ${{ github.run_id }}
           REPONAME: ${{ secrets.REPONAME }}
-          USERNAME: ${{ secrets.USERNAME }}
+          USERNAME: ${{ secrets.DOCKER_USERNAME }}
           EMAIL: ${{ secrets.EMAIL }}
       run: ./Script/updatemanifest.sh 

@@ -4,7 +4,7 @@ FROM mcr.microsoft.com/dotnet/sdk:6.0 as build-image
 WORKDIR /home/app
 COPY ./Hospital.API/Hospital.API.csproj ./Hospital.API/ 
 COPY ./Hospital.Application/Hospital.Application.csproj ./Hospital.Application/ 
-COPY ./Hospital.Domain/Hospital.Domain.csproj ./Hospital.Domain/ 
+COPY src/Hospital/Hospital.Domain/Hospital.Domain.csproj ./Hospital.Domain/ 
 COPY src/Hospital/Hospital.Infrastructure/Hospital.Infrastructure.csproj ./Hospital.Infrastructure/ 
 
 RUN dotnet restore "Hospital.API/Hospital.API.csproj"

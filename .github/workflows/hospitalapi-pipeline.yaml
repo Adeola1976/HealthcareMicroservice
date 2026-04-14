@@ -25,21 +25,22 @@ jobs:
     - name: Build
       run: dotnet build --no-restore
     - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet test --no-build --verbosity normal 
     - name: Docker build and push
       uses: mr-smithers-excellent/docker-build-push@v6
       with:
-          image: adeola1976/algorithms
+          image: adeola1976/${{ secrets.REPONAME }}
           registry: docker.io
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
+          dockerfile: src/Hospital/Dockerfile
     - name: Make script executable
       run:  chmod +x Script/updatemanifest.sh
     - name: Run script with env
       env:
           TOKEN: ${{ secrets.TOKEN }}
           BUILD_ID: ${{ github.run_id }}
-          REPO_NAME: ${{ secrets.REPONAME }}
-          REGISTER_NAME: ${{ secrets.REGISTERNAME }}
+          REPONAME: ${{ secrets.REPONAME }}
+          USERNAME: ${{ secrets.USERNAME }}
           EMAIL: ${{ secrets.EMAIL }}
       run: ./Script/updatemanifest.sh 

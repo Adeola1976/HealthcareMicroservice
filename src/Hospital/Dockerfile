@@ -5,7 +5,7 @@ WORKDIR /home/app
 COPY ./Hospital.API/Hospital.API.csproj ./Hospital.API/ 
 COPY ./Hospital.Application/Hospital.Application.csproj ./Hospital.Application/ 
 COPY ./Hospital.Domain/Hospital.Domain.csproj ./Hospital.Domain/ 
-COPY ./Hospital.Infrastructure/Hospital.Infrastructure.csproj ./Hospital.Infrastructure/ 
+COPY src/Hospital/Hospital.Infrastructure/Hospital.Infrastructure.csproj ./Hospital.Infrastructure/ 
 
 RUN dotnet restore "Hospital.API/Hospital.API.csproj"
 COPY . . 

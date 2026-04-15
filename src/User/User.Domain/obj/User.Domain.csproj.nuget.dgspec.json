@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hp\\source\\repos\\devops\\HealthCareMicroservice\\src\\User\\User.Domain\\User.Domain.csproj": {}
+    "C:\\Users\\hp\\source\\repos\\devops\\HealthcareMicroservice\\src\\User\\User.Domain\\User.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hp\\source\\repos\\devops\\HealthCareMicroservice\\src\\User\\User.Domain\\User.Domain.csproj": {
+    "C:\\Users\\hp\\source\\repos\\devops\\HealthcareMicroservice\\src\\User\\User.Domain\\User.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\source\\repos\\devops\\HealthCareMicroservice\\src\\User\\User.Domain\\User.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\source\\repos\\devops\\HealthcareMicroservice\\src\\User\\User.Domain\\User.Domain.csproj",
         "projectName": "User.Domain",
-        "projectPath": "C:\\Users\\hp\\source\\repos\\devops\\HealthCareMicroservice\\src\\User\\User.Domain\\User.Domain.csproj",
+        "projectPath": "C:\\Users\\hp\\source\\repos\\devops\\HealthcareMicroservice\\src\\User\\User.Domain\\User.Domain.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\source\\repos\\devops\\HealthCareMicroservice\\src\\User\\User.Domain\\obj\\",
+        "outputPath": "C:\\Users\\hp\\source\\repos\\devops\\HealthcareMicroservice\\src\\User\\User.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",

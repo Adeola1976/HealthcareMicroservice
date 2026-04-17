@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A5EA78B8-863A-48F2-97F5-83570621506B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hospital", "Hospital", "{78F7D6F1-F46F-4424-8DFA-C839EF4DC9A4}"
+	ProjectSection(SolutionItems) = preProject
+		updatemanifest.sh = updatemanifest.sh
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "User", "User", "{2650CB74-7301-48F3-9D23-B732325B9796}"
 EndProject

@@ -18,7 +18,7 @@ spec:
               ports:
                 - containerPort: 1433
               env:
-              - name: MSSQL_PID
+              - name: MSSQL_PID 
                 value: "Developer"
               - name: ACCEPT_EULA
                 value: "Y"
@@ -75,5 +75,5 @@ spec:
    accessModes: 
       - ReadWriteMany
    resources:
-      request:
+      requests:
          storage:  200Mi

@@ -34,7 +34,7 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
           dockerfile: src/Hospital/Dockerfile
-          tags: adeola1976/hospital:latest
+          tags: latest
     - name: Make script executable
       run:  chmod +x Script/updatemanifest.sh
     - name: Run script with env

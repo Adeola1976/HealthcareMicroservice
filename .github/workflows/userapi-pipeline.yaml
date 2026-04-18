@@ -33,7 +33,7 @@ jobs:
           registry: docker.io
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
-          dockerfile: src/Hospital/Dockerfile
+          dockerfile: src/User/Dockerfile
     - name: Make script executable
       run:  chmod +x Script/updatemanifest.sh
     - name: Run script with env

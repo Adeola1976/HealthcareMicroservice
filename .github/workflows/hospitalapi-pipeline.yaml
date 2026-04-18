@@ -29,7 +29,7 @@ jobs:
     - name: Docker build and push
       uses: mr-smithers-excellent/docker-build-push@v6
       with:
-          image: adeola1976/${{ secrets.REPONAME }}/${{ github.run_id }}
+          image: adeola1976/${{ secrets.REPONAME }}
           registry: docker.io
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}

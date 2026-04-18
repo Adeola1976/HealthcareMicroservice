@@ -21,3 +21,4 @@ C:\Users\hp\source\repos\devops\HealthCareMicroservice\src\Hospital\Hospital.Dom
 C:\Users\hp\source\repos\devops\HealthCareMicroservice\src\Hospital\Hospital.Domain\obj\Debug\net6.0\Hospital.Domain.dll
 C:\Users\hp\source\repos\devops\HealthCareMicroservice\src\Hospital\Hospital.Domain\obj\Debug\net6.0\ref\Hospital.Domain.dll
 C:\Users\hp\source\repos\devops\HealthCareMicroservice\src\Hospital\Hospital.Domain\obj\Debug\net6.0\Hospital.Domain.pdb
+C:\Users\hp\source\repos\devops\HealthcareMicroservice\src\Hospital\Hospital.Domain\obj\Debug\net6.0\Hospital.Domain.csproj.AssemblyReference.cache

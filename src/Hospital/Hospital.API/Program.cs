@@ -23,6 +23,7 @@ builder.Services.AddAutoMapper(typeof(Program));
 
 
 var app = builder.Build();
+//app.UseCors("AllowAll");
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -37,4 +38,4 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
-///////////
+/////////

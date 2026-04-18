@@ -11,7 +11,7 @@
       metadata:
          labels:
             app: hospitalservice
-            build-id: /:24595809793
+            build-id: :24596219249
       spec:
          containers:  
             - name: hospitalservice

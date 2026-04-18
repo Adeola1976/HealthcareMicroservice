@@ -29,11 +29,12 @@ jobs:
     - name: Docker build and push
       uses: mr-smithers-excellent/docker-build-push@v6
       with:
-          image: adeola1976/user/${{ github.run_id }}
+          image: adeola1976/user
           registry: docker.io
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
           dockerfile: src/User/Dockerfile
+          tags: latest
     - name: Make script executable
       run:  chmod +x Script/updatemanifest.sh
     - name: Run script with env

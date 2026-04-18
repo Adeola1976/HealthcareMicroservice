@@ -11,10 +11,11 @@
       metadata:
          labels:
             app: userservice
+            build-id: 1
       spec:
          containers:  
             - name: userservice
-              image: adeola1976/user:latest
+              image: adeola1976/user
 
 ---
  apiVersion: v1

@@ -22,7 +22,7 @@ namespace Hospital.API.Extension
         {
             if (env.IsProduction())
             {
-                Console.WriteLine("----> using sql server  database");
+                Console.WriteLine("----> using sql server  database in production");
                 services.AddDbContext<RepositoryContext>(opts => opts.UseSqlServer(configuration.GetConnectionString("DefaultConnection"), b => b.MigrationsAssembly("Hospital.API")));
             }
                

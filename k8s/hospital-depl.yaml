@@ -15,7 +15,7 @@
       spec:
          containers:  
             - name: hospitalservice
-              image: adeola1976/hospital
+              image: adeola1976/hospital:latest
 
 ---
  apiVersion: v1

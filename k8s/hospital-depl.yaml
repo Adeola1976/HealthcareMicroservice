@@ -11,7 +11,7 @@
       metadata:
          labels:
             app: hospitalservice
-            build-id: adeola1976-24639150153
+            build-id: adeola1976-24644510683
       spec:
          containers:  
             - name: hospitalservice

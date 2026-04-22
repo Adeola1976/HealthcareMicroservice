@@ -24,7 +24,7 @@ builder.Services.AddAutoMapper(typeof(Program));
 
 var app = builder.Build();
 //app.UseCors("AllowAll");
-Console.WriteLine("----> testing testing 123456....");
+Console.WriteLine("----> testing testing 1234567....");
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment() || app.Environment.IsProduction())
 {

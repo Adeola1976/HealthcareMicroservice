@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5Ks2f/zZ2HDJFyWyV/3GBJxm05Cx3LuwvQzQLEJICM8+6RBR4nm5CxrIZRT6XkW4PlZBhVLTIWIHUv4VfVMqdA==",
+  "dgSpecHash": "5FjpduW0uR5R/iTic+hslRVoPhy9XamazXtB5FDLahmYui7v4Gt8RNBtCuV63uU9jv0X4M3EsGO75DU5HyJsYQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hp\\source\\repos\\devops\\HealthcareMicroservice\\src\\Hospital\\Hospital.Application\\Hospital.Application.csproj",
+  "projectFilePath": "C:\\Users\\hp\\source\\repos\\devops\\HealthCareMicroservice\\src\\Hospital\\Hospital.Application\\Hospital.Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

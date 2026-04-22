@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hp\\source\\repos\\devops\\HealthcareMicroservice\\src\\Hospital\\Hospital.Application\\Hospital.Application.csproj",
+      "projectUniqueName": "C:\\Users\\hp\\source\\repos\\devops\\HealthCareMicroservice\\src\\Hospital\\Hospital.Application\\Hospital.Application.csproj",
       "projectName": "Hospital.Application",
-      "projectPath": "C:\\Users\\hp\\source\\repos\\devops\\HealthcareMicroservice\\src\\Hospital\\Hospital.Application\\Hospital.Application.csproj",
+      "projectPath": "C:\\Users\\hp\\source\\repos\\devops\\HealthCareMicroservice\\src\\Hospital\\Hospital.Application\\Hospital.Application.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hp\\source\\repos\\devops\\HealthcareMicroservice\\src\\Hospital\\Hospital.Application\\obj\\",
+      "outputPath": "C:\\Users\\hp\\source\\repos\\devops\\HealthCareMicroservice\\src\\Hospital\\Hospital.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -54,8 +54,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\hp\\source\\repos\\devops\\HealthcareMicroservice\\src\\Hospital\\Hospital.Domain\\Hospital.Domain.csproj": {
-              "projectPath": "C:\\Users\\hp\\source\\repos\\devops\\HealthcareMicroservice\\src\\Hospital\\Hospital.Domain\\Hospital.Domain.csproj"
+            "C:\\Users\\hp\\source\\repos\\devops\\HealthCareMicroservice\\src\\Hospital\\Hospital.Domain\\Hospital.Domain.csproj": {
+              "projectPath": "C:\\Users\\hp\\source\\repos\\devops\\HealthCareMicroservice\\src\\Hospital\\Hospital.Domain\\Hospital.Domain.csproj"
             }
           }
         }
